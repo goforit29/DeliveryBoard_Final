@@ -8,9 +8,5 @@ import java.util.List;
 public interface DeliveryboardRepository extends CrudRepository<Deliveryboard, Long> {
 
     List<Deliveryboard> findByRequestId(Long requestId);
-    List<Deliveryboard> findByRequestId(Long requestId);
-    List<Deliveryboard> findByRequestId(Long requestId);
-    List<Deliveryboard> findByRequestId(Long requestId);
-    List<Deliveryboard> findByRequestId(Long requestId);
 
 }
